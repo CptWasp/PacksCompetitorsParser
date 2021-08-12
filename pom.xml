@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.blrmyfc</groupId>
+    <groupId>by.blrmyfc</groupId>
     <artifactId>PacksСompetitorsParser</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -12,5 +12,21 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.10.2</version>
+        </dependency>
+
+
+
+    </dependencies>
+
+
+
+
 
 </project>
